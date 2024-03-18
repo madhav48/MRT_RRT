@@ -1,0 +1,27 @@
+[0.540s] Invoking command in '/home/madhav/mrt_ws/src/aruco_markers': AMENT_PREFIX_PATH=/home/madhav/mrt_ws/install/aruco_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/madhav/mrt_ws/install/aruco_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/madhav/mrt_ws/install/aruco_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/madhav/mrt_ws/build/aruco_markers/prefix_override:/home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages:/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_markers build --build-base /home/madhav/mrt_ws/build/aruco_markers/build install --record /home/madhav/mrt_ws/build/aruco_markers/install.log --single-version-externally-managed
+[0.720s] running egg_info
+[0.720s] writing ../../build/aruco_markers/aruco_markers.egg-info/PKG-INFO
+[0.720s] writing dependency_links to ../../build/aruco_markers/aruco_markers.egg-info/dependency_links.txt
+[0.721s] writing entry points to ../../build/aruco_markers/aruco_markers.egg-info/entry_points.txt
+[0.721s] writing requirements to ../../build/aruco_markers/aruco_markers.egg-info/requires.txt
+[0.721s] writing top-level names to ../../build/aruco_markers/aruco_markers.egg-info/top_level.txt
+[0.722s] reading manifest file '../../build/aruco_markers/aruco_markers.egg-info/SOURCES.txt'
+[0.722s] writing manifest file '../../build/aruco_markers/aruco_markers.egg-info/SOURCES.txt'
+[0.722s] running build
+[0.722s] running build_py
+[0.722s] copying aruco_markers/infoserver.py -> /home/madhav/mrt_ws/build/aruco_markers/build/lib/aruco_markers
+[0.722s] running install
+[0.723s] running install_lib
+[0.723s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.723s]   warnings.warn(
+[0.723s] copying /home/madhav/mrt_ws/build/aruco_markers/build/lib/aruco_markers/infoserver.py -> /home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers
+[0.724s] byte-compiling /home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers/infoserver.py to infoserver.cpython-310.pyc
+[0.724s] running install_data
+[0.724s] running install_egg_info
+[0.726s] removing '/home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers-0.0.0-py3.10.egg-info' (and everything under it)
+[0.726s] Copying ../../build/aruco_markers/aruco_markers.egg-info to /home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers-0.0.0-py3.10.egg-info
+[0.726s] running install_scripts
+[0.741s] Installing client script to /home/madhav/mrt_ws/install/aruco_markers/lib/aruco_markers
+[0.741s] Installing infoserver script to /home/madhav/mrt_ws/install/aruco_markers/lib/aruco_markers
+[0.741s] writing list of installed files to '/home/madhav/mrt_ws/build/aruco_markers/install.log'
+[0.758s] Invoked command in '/home/madhav/mrt_ws/src/aruco_markers' returned '0': AMENT_PREFIX_PATH=/home/madhav/mrt_ws/install/aruco_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/madhav/mrt_ws/install/aruco_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/madhav/mrt_ws/install/aruco_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/madhav/mrt_ws/build/aruco_markers/prefix_override:/home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages:/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_markers build --build-base /home/madhav/mrt_ws/build/aruco_markers/build install --record /home/madhav/mrt_ws/build/aruco_markers/install.log --single-version-externally-managed

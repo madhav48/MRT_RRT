@@ -1,0 +1,10 @@
+{
+  "package_name": "aruco_interfaces",
+  "non_idl_tuples": [
+    "/home/madhav/mrt_ws/src/aruco_interfaces:msg/Float64.msg",
+    "/home/madhav/mrt_ws/src/aruco_interfaces:msg/Float64MultiArray.msg",
+    "/home/madhav/mrt_ws/src/aruco_interfaces:msg/Image.msg",
+    "/home/madhav/mrt_ws/src/aruco_interfaces:srv/Tagid.srv",
+    "/home/madhav/mrt_ws/src/aruco_interfaces:srv/Rrtpath.srv"
+  ]
+}

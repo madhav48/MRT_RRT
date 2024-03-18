@@ -1,0 +1,5 @@
+[console_scripts]
+client = aruco_markers.client:main
+infoserver = aruco_markers.infoserver:main
+rrtserver = aruco_markers.rrtserver:main
+

@@ -1,0 +1,427 @@
+[0.000000] (-) TimerEvent: {}
+[0.000195] (aruco_interfaces) JobQueued: {'identifier': 'aruco_interfaces', 'dependencies': OrderedDict()}
+[0.000264] (aruco_markers) JobQueued: {'identifier': 'aruco_markers', 'dependencies': OrderedDict([('aruco_interfaces', '/home/madhav/mrt_ws/install/aruco_interfaces')])}
+[0.000284] (aruco_interfaces) JobStarted: {'identifier': 'aruco_interfaces'}
+[0.038918] (aruco_interfaces) JobProgress: {'identifier': 'aruco_interfaces', 'progress': 'cmake'}
+[0.039508] (aruco_interfaces) JobProgress: {'identifier': 'aruco_interfaces', 'progress': 'build'}
+[0.039539] (aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/madhav/mrt_ws/build/aruco_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/madhav/mrt_ws/build/aruco_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'madhav'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/madhav/mrt_ws/install/mrt_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/madhav'), ('OLDPWD', '/home/madhav/mrt_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1810'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/madhav/mrt_ws/install:/home/madhav/erc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'madhav'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'madhav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/madhav/bin:/opt/ros/humble/bin:/home/madhav/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/madhav-HP-Laptop-15s-fq5xxx:@/tmp/.ICE-unix/1770,unix/madhav-HP-Laptop-15s-fq5xxx:/tmp/.ICE-unix/1770'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/907bfebb_b4b7_43e0_ad09_b1878056b697'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G8TYJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/madhav/mrt_ws/install/madhav_agrawal_assn_2:/home/madhav/mrt_ws/install/mrt_interfaces:/home/madhav/mrt_ws/install/imgprocess:/home/madhav/mrt_ws/install/imgpprocess:/home/madhav/erc_ws/install/week1_tutorials:/home/madhav/erc_ws/install/week0_tutorials:/home/madhav/erc_ws/install/sherlock:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/madhav/mrt_ws/build/aruco_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/madhav/mrt_ws/install/madhav_agrawal_assn_2/lib/python3.10/site-packages:/home/madhav/mrt_ws/install/mrt_interfaces/local/lib/python3.10/dist-packages:/home/madhav/mrt_ws/install/imgprocess/lib/python3.10/site-packages:/home/madhav/mrt_ws/install/imgpprocess/lib/python3.10/site-packages:/home/madhav/erc_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/madhav/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/madhav/erc_ws/install/sherlock/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/madhav/mrt_ws/install/mrt_interfaces:/home/madhav/mrt_ws/install/madhav_agrawal_assn_2:/home/madhav/mrt_ws/install/imgprocess:/home/madhav/mrt_ws/install/imgpprocess:/home/madhav/erc_ws/install/week1_tutorials:/home/madhav/erc_ws/install/week0_tutorials:/home/madhav/erc_ws/install/sherlock:/opt/ros/humble')]), 'shell': False}
+[0.060465] (aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099539] (-) TimerEvent: {}
+[0.199958] (-) TimerEvent: {}
+[0.232891] (aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.235777] (aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.239098] (aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.274891] (aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.295830] (aruco_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.300181] (-) TimerEvent: {}
+[0.400573] (-) TimerEvent: {}
+[0.500975] (-) TimerEvent: {}
+[0.601382] (-) TimerEvent: {}
+[0.701813] (-) TimerEvent: {}
+[0.759300] (aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.802032] (-) TimerEvent: {}
+[0.902368] (-) TimerEvent: {}
+[1.002800] (-) TimerEvent: {}
+[1.081528] (aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.103013] (-) TimerEvent: {}
+[1.203425] (-) TimerEvent: {}
+[1.303857] (-) TimerEvent: {}
+[1.404513] (-) TimerEvent: {}
+[1.504938] (-) TimerEvent: {}
+[1.556104] (aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.584602] (aruco_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.605110] (-) TimerEvent: {}
+[1.612151] (aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.612384] (aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.612490] (aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.674504] (aruco_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.683274] (aruco_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.684281] (aruco_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.686022] (aruco_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.705354] (-) TimerEvent: {}
+[1.728191] (aruco_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.730306] (aruco_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/madhav/mrt_ws/build/aruco_interfaces\n'}
+[1.752261] (aruco_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.765273] (aruco_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.767928] (aruco_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_aruco_interfaces\n'}
+[1.805456] (-) TimerEvent: {}
+[1.905740] (-) TimerEvent: {}
+[1.914769] (aruco_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.915168] (aruco_interfaces) StdoutLine: {'line': b'writing aruco_interfaces.egg-info/PKG-INFO\n'}
+[1.915440] (aruco_interfaces) StdoutLine: {'line': b'writing dependency_links to aruco_interfaces.egg-info/dependency_links.txt\n'}
+[1.915555] (aruco_interfaces) StdoutLine: {'line': b'writing top-level names to aruco_interfaces.egg-info/top_level.txt\n'}
+[1.916846] (aruco_interfaces) StdoutLine: {'line': b"reading manifest file 'aruco_interfaces.egg-info/SOURCES.txt'\n"}
+[1.917305] (aruco_interfaces) StdoutLine: {'line': b"writing manifest file 'aruco_interfaces.egg-info/SOURCES.txt'\n"}
+[1.935939] (aruco_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_aruco_interfaces_egg\n'}
+[2.005986] (-) TimerEvent: {}
+[2.036019] (aruco_interfaces) StdoutLine: {'line': b'[  3%] Built target aruco_interfaces__cpp\n'}
+[2.044626] (aruco_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.048233] (aruco_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.048466] (aruco_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.085870] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.099897] (aruco_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/float64__functions.c.o\x1b[0m\n'}
+[2.100267] (aruco_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/image__functions.c.o\x1b[0m\n'}
+[2.100385] (aruco_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/float64_multi_array__functions.c.o\x1b[0m\n'}
+[2.100486] (aruco_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/tagid__functions.c.o\x1b[0m\n'}
+[2.106147] (-) TimerEvent: {}
+[2.168451] (aruco_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libaruco_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.206302] (-) TimerEvent: {}
+[2.206878] (aruco_interfaces) StdoutLine: {'line': b'[ 18%] Built target aruco_interfaces__rosidl_generator_c\n'}
+[2.218529] (aruco_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.218877] (aruco_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.218999] (aruco_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.270984] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.284293] (aruco_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/image__type_support.cpp.o\x1b[0m\n'}
+[2.286120] (aruco_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/float64__type_support.cpp.o\x1b[0m\n'}
+[2.286352] (aruco_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/float64_multi_array__type_support.cpp.o\x1b[0m\n'}
+[2.286786] (aruco_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/tagid__type_support.cpp.o\x1b[0m\n'}
+[2.306419] (-) TimerEvent: {}
+[2.319901] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.339016] (aruco_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/float64__type_support.cpp.o\x1b[0m\n'}
+[2.339235] (aruco_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/float64_multi_array__type_support.cpp.o\x1b[0m\n'}
+[2.339327] (aruco_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/image__type_support.cpp.o\x1b[0m\n'}
+[2.355988] (aruco_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/srv/detail/tagid__type_support.cpp.o\x1b[0m\n'}
+[2.406536] (-) TimerEvent: {}
+[2.506915] (-) TimerEvent: {}
+[2.607314] (-) TimerEvent: {}
+[2.607818] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.627457] (aruco_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/float64__type_support.cpp.o\x1b[0m\n'}
+[2.631040] (aruco_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/float64_multi_array__type_support.cpp.o\x1b[0m\n'}
+[2.635050] (aruco_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/image__type_support.cpp.o\x1b[0m\n'}
+[2.639668] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.655067] (aruco_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/srv/detail/dds_fastrtps/tagid__type_support.cpp.o\x1b[0m\n'}
+[2.656486] (aruco_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/msg/float64__type_support.cpp.o\x1b[0m\n'}
+[2.664150] (aruco_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.700655] (aruco_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/msg/float64_multi_array__type_support.cpp.o\x1b[0m\n'}
+[2.707451] (-) TimerEvent: {}
+[2.727995] (aruco_interfaces) StdoutLine: {'line': b'[ 50%] Built target aruco_interfaces__rosidl_typesupport_cpp\n'}
+[2.744008] (aruco_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/msg/image__type_support.cpp.o\x1b[0m\n'}
+[2.766814] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.776862] (aruco_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/srv/tagid__type_support.cpp.o\x1b[0m\n'}
+[2.784235] (aruco_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/float64__type_support.c.o\x1b[0m\n'}
+[2.785478] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.787974] (aruco_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/float64_multi_array__type_support.c.o\x1b[0m\n'}
+[2.807610] (-) TimerEvent: {}
+[2.808033] (aruco_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/float64__type_support_c.cpp.o\x1b[0m\n'}
+[2.827558] (aruco_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.829927] (aruco_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/image__type_support.c.o\x1b[0m\n'}
+[2.841129] (aruco_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/tagid__type_support.c.o\x1b[0m\n'}
+[2.888223] (aruco_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/float64_multi_array__type_support_c.cpp.o\x1b[0m\n'}
+[2.890503] (aruco_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library libaruco_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.903497] (aruco_interfaces) StdoutLine: {'line': b'[ 69%] Built target aruco_interfaces__rosidl_typesupport_c\n'}
+[2.907748] (-) TimerEvent: {}
+[2.915082] (aruco_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/image__type_support_c.cpp.o\x1b[0m\n'}
+[2.917947] (aruco_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/srv/detail/tagid__type_support_c.cpp.o\x1b[0m\n'}
+[2.939251] (aruco_interfaces) StdoutLine: {'line': b'[ 72%] Built target aruco_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.960229] (aruco_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.007900] (-) TimerEvent: {}
+[3.077099] (aruco_interfaces) StdoutLine: {'line': b'[ 74%] Built target aruco_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.108094] (-) TimerEvent: {}
+[3.208531] (-) TimerEvent: {}
+[3.248696] (aruco_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.305344] (aruco_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.307144] (aruco_interfaces) StdoutLine: {'line': b'[ 78%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.308650] (-) TimerEvent: {}
+[3.355136] (aruco_interfaces) StdoutLine: {'line': b'[ 78%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.374224] (aruco_interfaces) StdoutLine: {'line': b'[ 78%] Built target aruco_interfaces\n'}
+[3.397557] (aruco_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.408894] (-) TimerEvent: {}
+[3.509447] (-) TimerEvent: {}
+[3.609769] (-) TimerEvent: {}
+[3.710116] (-) TimerEvent: {}
+[3.755869] (aruco_interfaces) StdoutLine: {'line': b'[ 80%] Built target aruco_interfaces__py\n'}
+[3.762683] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_generator_py\x1b[0m\n'}
+[3.775447] (aruco_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/msg/_float64_s.c.o\x1b[0m\n'}
+[3.775796] (aruco_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/srv/_tagid_s.c.o\x1b[0m\n'}
+[3.777732] (aruco_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/msg/_float64_multi_array_s.c.o\x1b[0m\n'}
+[3.778102] (aruco_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/msg/_image_s.c.o\x1b[0m\n'}
+[3.810260] (-) TimerEvent: {}
+[3.898144] (aruco_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_interfaces/libaruco_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.910480] (-) TimerEvent: {}
+[3.949222] (aruco_interfaces) StdoutLine: {'line': b'[ 89%] Built target aruco_interfaces__rosidl_generator_py\n'}
+[3.962621] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.962918] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.964917] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.982458] (aruco_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.984682] (aruco_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.985559] (aruco_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.010653] (-) TimerEvent: {}
+[4.085450] (aruco_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.086539] (aruco_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.110752] (-) TimerEvent: {}
+[4.114619] (aruco_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.114929] (aruco_interfaces) StdoutLine: {'line': b'[100%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.120264] (aruco_interfaces) StdoutLine: {'line': b'[100%] Built target aruco_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.141992] (aruco_interfaces) StdoutLine: {'line': b'[100%] Built target aruco_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.152151] (aruco_interfaces) CommandEnded: {'returncode': 0}
+[4.210884] (-) TimerEvent: {}
+[4.232942] (aruco_interfaces) JobProgress: {'identifier': 'aruco_interfaces', 'progress': 'install'}
+[4.245151] (aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/madhav/mrt_ws/build/aruco_interfaces'], 'cwd': '/home/madhav/mrt_ws/build/aruco_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'madhav'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/madhav/mrt_ws/install/mrt_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/madhav'), ('OLDPWD', '/home/madhav/mrt_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1810'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/madhav/mrt_ws/install:/home/madhav/erc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'madhav'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'madhav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/madhav/bin:/opt/ros/humble/bin:/home/madhav/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/madhav-HP-Laptop-15s-fq5xxx:@/tmp/.ICE-unix/1770,unix/madhav-HP-Laptop-15s-fq5xxx:/tmp/.ICE-unix/1770'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/907bfebb_b4b7_43e0_ad09_b1878056b697'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G8TYJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/madhav/mrt_ws/install/madhav_agrawal_assn_2:/home/madhav/mrt_ws/install/mrt_interfaces:/home/madhav/mrt_ws/install/imgprocess:/home/madhav/mrt_ws/install/imgpprocess:/home/madhav/erc_ws/install/week1_tutorials:/home/madhav/erc_ws/install/week0_tutorials:/home/madhav/erc_ws/install/sherlock:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/madhav/mrt_ws/build/aruco_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/madhav/mrt_ws/install/madhav_agrawal_assn_2/lib/python3.10/site-packages:/home/madhav/mrt_ws/install/mrt_interfaces/local/lib/python3.10/dist-packages:/home/madhav/mrt_ws/install/imgprocess/lib/python3.10/site-packages:/home/madhav/mrt_ws/install/imgpprocess/lib/python3.10/site-packages:/home/madhav/erc_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/madhav/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/madhav/erc_ws/install/sherlock/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/madhav/mrt_ws/install/mrt_interfaces:/home/madhav/mrt_ws/install/madhav_agrawal_assn_2:/home/madhav/mrt_ws/install/imgprocess:/home/madhav/mrt_ws/install/imgpprocess:/home/madhav/erc_ws/install/week1_tutorials:/home/madhav/erc_ws/install/week0_tutorials:/home/madhav/erc_ws/install/sherlock:/opt/ros/humble')]), 'shell': False}
+[4.256731] (aruco_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.256999] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/aruco_interfaces\n'}
+[4.257184] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces\n'}
+[4.257446] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg\n'}
+[4.257605] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/image.h\n'}
+[4.257722] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.257834] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail\n'}
+[4.258106] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/image__functions.c\n'}
+[4.258264] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64__functions.c\n'}
+[4.258408] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/image__functions.h\n'}
+[4.258530] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64__type_support.h\n'}
+[4.258654] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64_multi_array__functions.c\n'}
+[4.258759] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64_multi_array__type_support.h\n'}
+[4.258884] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/image__type_support.h\n'}
+[4.259008] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64__functions.h\n'}
+[4.259137] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/image__struct.h\n'}
+[4.259261] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64__struct.h\n'}
+[4.259367] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64_multi_array__struct.h\n'}
+[4.259520] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64_multi_array__functions.h\n'}
+[4.259651] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/float64_multi_array.h\n'}
+[4.259768] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/float64.h\n'}
+[4.259912] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv\n'}
+[4.260025] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail\n'}
+[4.260138] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/tagid__functions.h\n'}
+[4.260274] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/tagid__struct.h\n'}
+[4.260404] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/tagid__functions.c\n'}
+[4.260515] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/tagid__type_support.h\n'}
+[4.260671] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/tagid.h\n'}
+[4.260786] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.sh\n'}
+[4.260897] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.dsv\n'}
+[4.261035] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so\n'}
+[4.261483] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.261659] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces\n'}
+[4.261813] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg\n'}
+[4.261967] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail\n'}
+[4.262130] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64__rosidl_typesupport_fastrtps_c.h\n'}
+[4.262281] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64_multi_array__rosidl_typesupport_fastrtps_c.h\n'}
+[4.262463] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/image__rosidl_typesupport_fastrtps_c.h\n'}
+[4.262584] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.262703] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv\n'}
+[4.262849] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail\n'}
+[4.262967] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/tagid__rosidl_typesupport_fastrtps_c.h\n'}
+[4.263084] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.263250] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.263423] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces\n'}
+[4.263582] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg\n'}
+[4.263738] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail\n'}
+[4.263895] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64_multi_array__rosidl_typesupport_introspection_c.h\n'}
+[4.264046] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64__type_support.c\n'}
+[4.264174] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/image__rosidl_typesupport_introspection_c.h\n'}
+[4.264330] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/image__type_support.c\n'}
+[4.264486] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64__rosidl_typesupport_introspection_c.h\n'}
+[4.264688] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64_multi_array__type_support.c\n'}
+[4.264854] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.265019] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv\n'}
+[4.265154] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail\n'}
+[4.265301] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/tagid__rosidl_typesupport_introspection_c.h\n'}
+[4.265441] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/tagid__type_support.c\n'}
+[4.265632] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.266097] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.266310] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so\n'}
+[4.266678] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.266870] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces\n'}
+[4.267067] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg\n'}
+[4.267260] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail\n'}
+[4.267425] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64_multi_array__builder.hpp\n'}
+[4.267599] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/image__builder.hpp\n'}
+[4.267763] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/image__traits.hpp\n'}
+[4.267899] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64_multi_array__struct.hpp\n'}
+[4.268074] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64__builder.hpp\n'}
+[4.268239] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64_multi_array__traits.hpp\n'}
+[4.268369] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64__struct.hpp\n'}
+[4.268542] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/image__struct.hpp\n'}
+[4.268678] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64__traits.hpp\n'}
+[4.268867] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/float64_multi_array.hpp\n'}
+[4.269028] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/float64.hpp\n'}
+[4.269195] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/image.hpp\n'}
+[4.269398] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv\n'}
+[4.269689] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/tagid.hpp\n'}
+[4.269816] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail\n'}
+[4.269901] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/tagid__struct.hpp\n'}
+[4.269982] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/tagid__traits.hpp\n'}
+[4.270062] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/tagid__builder.hpp\n'}
+[4.270139] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces\n'}
+[4.270217] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg\n'}
+[4.270293] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail\n'}
+[4.270367] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/dds_fastrtps\n'}
+[4.270637] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.270828] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.270921] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64_multi_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.271006] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.271083] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv\n'}
+[4.271162] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail\n'}
+[4.271239] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/dds_fastrtps\n'}
+[4.271316] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/tagid__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.271392] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.271577] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.271652] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces\n'}
+[4.271780] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg\n'}
+[4.271873] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail\n'}
+[4.271938] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/image__type_support.cpp\n'}
+[4.272007] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.272077] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/image__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.272144] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64_multi_array__type_support.cpp\n'}
+[4.272263] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64_multi_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.272328] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/float64__type_support.cpp\n'}
+[4.272389] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv\n'}
+[4.272450] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail\n'}
+[4.272536] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/tagid__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.272600] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/tagid__type_support.cpp\n'}
+[4.272665] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.272942] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.273096] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.273634] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.273859] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.sh\n'}
+[4.274023] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.dsv\n'}
+[4.274278] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info\n'}
+[4.274477] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.274638] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.274719] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.274797] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.274873] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces\n'}
+[4.274948] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.275060] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/libaruco_interfaces__rosidl_generator_py.so\n'}
+[4.275202] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg\n'}
+[4.275283] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_image.py\n'}
+[4.275356] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_float64_s.c\n'}
+[4.275428] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/__init__.py\n'}
+[4.275546] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_image_s.c\n'}
+[4.275617] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_float64_multi_array.py\n'}
+[4.275690] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_float64.py\n'}
+[4.275793] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_float64_multi_array_s.c\n'}
+[4.275903] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.275975] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.276083] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/__init__.py\n'}
+[4.276212] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv\n'}
+[4.276283] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/__init__.py\n'}
+[4.276356] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_tagid.py\n'}
+[4.276463] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_tagid_s.c\n'}
+[4.276579] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.276650] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.276749] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.311098] (-) TimerEvent: {}
+[4.327332] (aruco_interfaces) StdoutLine: {'line': b"Listing '/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces'...\n"}
+[4.327578] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/__init__.py'...\n"}
+[4.327709] (aruco_interfaces) StdoutLine: {'line': b"Listing '/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg'...\n"}
+[4.327827] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/__init__.py'...\n"}
+[4.327942] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_float64.py'...\n"}
+[4.328054] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_float64_multi_array.py'...\n"}
+[4.328166] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_image.py'...\n"}
+[4.328280] (aruco_interfaces) StdoutLine: {'line': b"Listing '/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv'...\n"}
+[4.328395] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/__init__.py'...\n"}
+[4.328506] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_tagid.py'...\n"}
+[4.333918] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.334277] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.334538] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.335024] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.335283] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.335652] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.335933] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_py.so\n'}
+[4.336311] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/madhav/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_py.so" to ""\n'}
+[4.336678] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/msg/Float64.idl\n'}
+[4.336871] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/msg/Float64MultiArray.idl\n'}
+[4.337033] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/msg/Image.idl\n'}
+[4.337152] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/Tagid.idl\n'}
+[4.337313] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/msg/Float64.msg\n'}
+[4.337462] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/msg/Float64MultiArray.msg\n'}
+[4.337585] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/msg/Image.msg\n'}
+[4.337783] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/Tagid.srv\n'}
+[4.337943] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/Tagid_Request.msg\n'}
+[4.338124] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/Tagid_Response.msg\n'}
+[4.338295] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/aruco_interfaces\n'}
+[4.338512] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/aruco_interfaces\n'}
+[4.338700] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.sh\n'}
+[4.338853] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.339008] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.sh\n'}
+[4.339175] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.dsv\n'}
+[4.339340] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.bash\n'}
+[4.339490] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.sh\n'}
+[4.339647] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.zsh\n'}
+[4.339785] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.dsv\n'}
+[4.339923] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/package.dsv\n'}
+[4.340081] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/ament_index/resource_index/packages/aruco_interfaces\n'}
+[4.340238] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.340408] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.340567] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.340760] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.340926] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.341112] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.341310] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.341448] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.341604] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.341731] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.341853] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.341980] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.342103] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.342225] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.342345] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.342474] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.342601] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.342728] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.342856] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.342984] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.343116] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.343252] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.343380] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.343508] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.343638] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig.cmake\n'}
+[4.343884] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig-version.cmake\n'}
+[4.344022] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/madhav/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/package.xml\n'}
+[4.345814] (aruco_interfaces) CommandEnded: {'returncode': 0}
+[4.411238] (-) TimerEvent: {}
+[4.512000] (-) TimerEvent: {}
+[4.539224] (aruco_interfaces) JobEnded: {'identifier': 'aruco_interfaces', 'rc': 0}
+[4.539687] (aruco_markers) JobStarted: {'identifier': 'aruco_markers'}
+[4.612218] (-) TimerEvent: {}
+[4.712630] (-) TimerEvent: {}
+[4.813992] (-) TimerEvent: {}
+[4.914404] (-) TimerEvent: {}
+[5.014851] (-) TimerEvent: {}
+[5.107738] (aruco_markers) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/aruco_markers', 'build', '--build-base', '/home/madhav/mrt_ws/build/aruco_markers/build', 'install', '--record', '/home/madhav/mrt_ws/build/aruco_markers/install.log', '--single-version-externally-managed'], 'cwd': '/home/madhav/mrt_ws/src/aruco_markers', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'madhav', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/madhav/mrt_ws/install/aruco_interfaces/lib:/home/madhav/mrt_ws/install/mrt_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/madhav', 'OLDPWD': '/home/madhav/mrt_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1810', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/madhav/mrt_ws/install:/home/madhav/erc_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'madhav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'madhav', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/madhav/bin:/opt/ros/humble/bin:/home/madhav/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/madhav-HP-Laptop-15s-fq5xxx:@/tmp/.ICE-unix/1770,unix/madhav-HP-Laptop-15s-fq5xxx:/tmp/.ICE-unix/1770', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/907bfebb_b4b7_43e0_ad09_b1878056b697', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G8TYJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/madhav/mrt_ws/install/aruco_interfaces:/home/madhav/mrt_ws/install/madhav_agrawal_assn_2:/home/madhav/mrt_ws/install/mrt_interfaces:/home/madhav/mrt_ws/install/imgprocess:/home/madhav/mrt_ws/install/imgpprocess:/home/madhav/erc_ws/install/week1_tutorials:/home/madhav/erc_ws/install/week0_tutorials:/home/madhav/erc_ws/install/sherlock:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/madhav/mrt_ws/build/aruco_markers', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/madhav/mrt_ws/build/aruco_markers/prefix_override:/home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages:/home/madhav/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages:/home/madhav/mrt_ws/install/madhav_agrawal_assn_2/lib/python3.10/site-packages:/home/madhav/mrt_ws/install/mrt_interfaces/local/lib/python3.10/dist-packages:/home/madhav/mrt_ws/install/imgprocess/lib/python3.10/site-packages:/home/madhav/mrt_ws/install/imgpprocess/lib/python3.10/site-packages:/home/madhav/erc_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/madhav/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/madhav/erc_ws/install/sherlock/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/madhav/mrt_ws/install/aruco_interfaces:/home/madhav/mrt_ws/install/mrt_interfaces'}, 'shell': False}
+[5.114936] (-) TimerEvent: {}
+[5.215281] (-) TimerEvent: {}
+[5.234591] (aruco_markers) StdoutLine: {'line': b'running egg_info\n'}
+[5.234958] (aruco_markers) StdoutLine: {'line': b'creating ../../build/aruco_markers/aruco_markers.egg-info\n'}
+[5.235200] (aruco_markers) StdoutLine: {'line': b'writing ../../build/aruco_markers/aruco_markers.egg-info/PKG-INFO\n'}
+[5.235312] (aruco_markers) StdoutLine: {'line': b'writing dependency_links to ../../build/aruco_markers/aruco_markers.egg-info/dependency_links.txt\n'}
+[5.235400] (aruco_markers) StdoutLine: {'line': b'writing entry points to ../../build/aruco_markers/aruco_markers.egg-info/entry_points.txt\n'}
+[5.235472] (aruco_markers) StdoutLine: {'line': b'writing requirements to ../../build/aruco_markers/aruco_markers.egg-info/requires.txt\n'}
+[5.235544] (aruco_markers) StdoutLine: {'line': b'writing top-level names to ../../build/aruco_markers/aruco_markers.egg-info/top_level.txt\n'}
+[5.235749] (aruco_markers) StdoutLine: {'line': b"writing manifest file '../../build/aruco_markers/aruco_markers.egg-info/SOURCES.txt'\n"}
+[5.236585] (aruco_markers) StdoutLine: {'line': b"reading manifest file '../../build/aruco_markers/aruco_markers.egg-info/SOURCES.txt'\n"}
+[5.236781] (aruco_markers) StdoutLine: {'line': b"writing manifest file '../../build/aruco_markers/aruco_markers.egg-info/SOURCES.txt'\n"}
+[5.236869] (aruco_markers) StdoutLine: {'line': b'running build\n'}
+[5.236999] (aruco_markers) StdoutLine: {'line': b'running build_py\n'}
+[5.237096] (aruco_markers) StdoutLine: {'line': b'creating /home/madhav/mrt_ws/build/aruco_markers/build\n'}
+[5.237201] (aruco_markers) StdoutLine: {'line': b'creating /home/madhav/mrt_ws/build/aruco_markers/build/lib\n'}
+[5.237298] (aruco_markers) StdoutLine: {'line': b'creating /home/madhav/mrt_ws/build/aruco_markers/build/lib/aruco_markers\n'}
+[5.237397] (aruco_markers) StdoutLine: {'line': b'copying aruco_markers/__init__.py -> /home/madhav/mrt_ws/build/aruco_markers/build/lib/aruco_markers\n'}
+[5.237447] (aruco_markers) StdoutLine: {'line': b'copying aruco_markers/infoserver.py -> /home/madhav/mrt_ws/build/aruco_markers/build/lib/aruco_markers\n'}
+[5.237481] (aruco_markers) StdoutLine: {'line': b'copying aruco_markers/client.py -> /home/madhav/mrt_ws/build/aruco_markers/build/lib/aruco_markers\n'}
+[5.237515] (aruco_markers) StdoutLine: {'line': b'running install\n'}
+[5.246952] (aruco_markers) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.247118] (aruco_markers) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.247265] (aruco_markers) StdoutLine: {'line': b'running install_lib\n'}
+[5.248146] (aruco_markers) StdoutLine: {'line': b'creating /home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers\n'}
+[5.248237] (aruco_markers) StdoutLine: {'line': b'copying /home/madhav/mrt_ws/build/aruco_markers/build/lib/aruco_markers/__init__.py -> /home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers\n'}
+[5.248281] (aruco_markers) StdoutLine: {'line': b'copying /home/madhav/mrt_ws/build/aruco_markers/build/lib/aruco_markers/infoserver.py -> /home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers\n'}
+[5.248318] (aruco_markers) StdoutLine: {'line': b'copying /home/madhav/mrt_ws/build/aruco_markers/build/lib/aruco_markers/client.py -> /home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers\n'}
+[5.248936] (aruco_markers) StdoutLine: {'line': b'byte-compiling /home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers/__init__.py to __init__.cpython-310.pyc\n'}
+[5.249027] (aruco_markers) StdoutLine: {'line': b'byte-compiling /home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers/infoserver.py to infoserver.cpython-310.pyc\n'}
+[5.249372] (aruco_markers) StdoutLine: {'line': b'byte-compiling /home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers/client.py to client.cpython-310.pyc\n'}
+[5.250109] (aruco_markers) StdoutLine: {'line': b'running install_data\n'}
+[5.250883] (aruco_markers) StdoutLine: {'line': b'creating /home/madhav/mrt_ws/install/aruco_markers/share/ament_index\n'}
+[5.251094] (aruco_markers) StdoutLine: {'line': b'creating /home/madhav/mrt_ws/install/aruco_markers/share/ament_index/resource_index\n'}
+[5.251149] (aruco_markers) StdoutLine: {'line': b'creating /home/madhav/mrt_ws/install/aruco_markers/share/ament_index/resource_index/packages\n'}
+[5.251192] (aruco_markers) StdoutLine: {'line': b'copying resource/aruco_markers -> /home/madhav/mrt_ws/install/aruco_markers/share/ament_index/resource_index/packages\n'}
+[5.251341] (aruco_markers) StdoutLine: {'line': b'copying package.xml -> /home/madhav/mrt_ws/install/aruco_markers/share/aruco_markers\n'}
+[5.251434] (aruco_markers) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.253472] (aruco_markers) StdoutLine: {'line': b'Copying ../../build/aruco_markers/aruco_markers.egg-info to /home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers-0.0.0-py3.10.egg-info\n'}
+[5.254437] (aruco_markers) StdoutLine: {'line': b'running install_scripts\n'}
+[5.271545] (aruco_markers) StdoutLine: {'line': b'Installing client script to /home/madhav/mrt_ws/install/aruco_markers/lib/aruco_markers\n'}
+[5.271687] (aruco_markers) StdoutLine: {'line': b'Installing infoserver script to /home/madhav/mrt_ws/install/aruco_markers/lib/aruco_markers\n'}
+[5.271857] (aruco_markers) StdoutLine: {'line': b"writing list of installed files to '/home/madhav/mrt_ws/build/aruco_markers/install.log'\n"}
+[5.286897] (aruco_markers) CommandEnded: {'returncode': 0}
+[5.315448] (-) TimerEvent: {}
+[5.329775] (aruco_markers) JobEnded: {'identifier': 'aruco_markers', 'rc': 0}
+[5.330453] (-) EventReactorShutdown: {}

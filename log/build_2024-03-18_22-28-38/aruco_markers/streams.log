@@ -1,0 +1,28 @@
+[0.531s] Invoking command in '/home/madhav/mrt_ws/src/aruco_markers': PYTHONPATH=/home/madhav/mrt_ws/build/aruco_markers/prefix_override:/home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_markers build --build-base /home/madhav/mrt_ws/build/aruco_markers/build install --record /home/madhav/mrt_ws/build/aruco_markers/install.log --single-version-externally-managed
+[0.717s] running egg_info
+[0.717s] writing ../../build/aruco_markers/aruco_markers.egg-info/PKG-INFO
+[0.718s] writing dependency_links to ../../build/aruco_markers/aruco_markers.egg-info/dependency_links.txt
+[0.718s] writing entry points to ../../build/aruco_markers/aruco_markers.egg-info/entry_points.txt
+[0.718s] writing requirements to ../../build/aruco_markers/aruco_markers.egg-info/requires.txt
+[0.718s] writing top-level names to ../../build/aruco_markers/aruco_markers.egg-info/top_level.txt
+[0.719s] reading manifest file '../../build/aruco_markers/aruco_markers.egg-info/SOURCES.txt'
+[0.720s] writing manifest file '../../build/aruco_markers/aruco_markers.egg-info/SOURCES.txt'
+[0.720s] running build
+[0.720s] running build_py
+[0.720s] copying aruco_markers/client.py -> /home/madhav/mrt_ws/build/aruco_markers/build/lib/aruco_markers
+[0.721s] running install
+[0.721s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.721s]   warnings.warn(
+[0.721s] running install_lib
+[0.722s] copying /home/madhav/mrt_ws/build/aruco_markers/build/lib/aruco_markers/client.py -> /home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers
+[0.723s] byte-compiling /home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers/client.py to client.cpython-310.pyc
+[0.725s] running install_data
+[0.725s] running install_egg_info
+[0.727s] removing '/home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers-0.0.0-py3.10.egg-info' (and everything under it)
+[0.727s] Copying ../../build/aruco_markers/aruco_markers.egg-info to /home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages/aruco_markers-0.0.0-py3.10.egg-info
+[0.728s] running install_scripts
+[0.749s] Installing client script to /home/madhav/mrt_ws/install/aruco_markers/lib/aruco_markers
+[0.750s] Installing infoserver script to /home/madhav/mrt_ws/install/aruco_markers/lib/aruco_markers
+[0.750s] Installing rrtserver script to /home/madhav/mrt_ws/install/aruco_markers/lib/aruco_markers
+[0.750s] writing list of installed files to '/home/madhav/mrt_ws/build/aruco_markers/install.log'
+[0.771s] Invoked command in '/home/madhav/mrt_ws/src/aruco_markers' returned '0': PYTHONPATH=/home/madhav/mrt_ws/build/aruco_markers/prefix_override:/home/madhav/mrt_ws/install/aruco_markers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_markers build --build-base /home/madhav/mrt_ws/build/aruco_markers/build install --record /home/madhav/mrt_ws/build/aruco_markers/install.log --single-version-externally-managed

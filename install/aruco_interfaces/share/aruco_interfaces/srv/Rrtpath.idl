@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aruco_interfaces/srv/Rrtpath.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+#include "std_msgs/msg/Int64MultiArray.idl"
+
+module aruco_interfaces {
+  module srv {
+    struct Rrtpath_Request {
+      sensor_msgs::msg::Image image;
+
+      std_msgs::msg::Int64MultiArray coordinates;
+
+      std_msgs::msg::Int64MultiArray info;
+    };
+    struct Rrtpath_Response {
+      std_msgs::msg::Int64MultiArray coordinates;
+    };
+  };
+};

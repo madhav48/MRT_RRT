@@ -1,0 +1,3 @@
+sensor_msgs/Image image
+std_msgs/Int64MultiArray coordinates
+std_msgs/Int64MultiArray info

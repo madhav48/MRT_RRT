@@ -1,0 +1,5 @@
+/home/madhav/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:msg/Float64.idl
+/home/madhav/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:msg/Float64MultiArray.idl
+/home/madhav/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:msg/Image.idl
+/home/madhav/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:srv/Tagid.idl
+/home/madhav/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:srv/Rrtpath.idl

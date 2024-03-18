@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aruco_interfaces/msg/Image.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module aruco_interfaces {
+  module msg {
+    struct Image {
+      sensor_msgs::msg::Image image;
+    };
+  };
+};

@@ -1,0 +1,13 @@
+setup.py
+aruco_interfaces/__init__.py
+aruco_interfaces.egg-info/PKG-INFO
+aruco_interfaces.egg-info/SOURCES.txt
+aruco_interfaces.egg-info/dependency_links.txt
+aruco_interfaces.egg-info/top_level.txt
+aruco_interfaces/msg/__init__.py
+aruco_interfaces/msg/_float64.py
+aruco_interfaces/msg/_float64_multi_array.py
+aruco_interfaces/msg/_image.py
+aruco_interfaces/srv/__init__.py
+aruco_interfaces/srv/_rrtpath.py
+aruco_interfaces/srv/_tagid.py
