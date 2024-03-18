@@ -1,8 +1,8 @@
-This repo basically contains two ros packages aruco interfaces and aruco markers. 
+This repo basically contains two ros packages aruco_interfaces and aruco_markers. 
 
-Aruco interfaces is only for defining datatype of custom msg / service..
+aruco_interfaces is only for defining datatype of custom msg / service..
 
-Aruco markers contains 3 nodes and 1 helper files..
+aruco_markers contains 3 nodes and 1 helper files..
 
   - infoserver --> Server node which takes image as input and returns back the coordinates of aruco markers present in the image.
     -  Also it opens a cv2 window in which the image is diplayed along with rectangles drawn over detected aruco markers.
